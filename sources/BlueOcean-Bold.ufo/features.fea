@@ -1,0 +1,61 @@
+@KERN_LEFT_A = [ A Aring Adieresis Agrave Atilde Acircumflex Aacute ];
+
+@KERN_RIGHT_c = [ ecircumflex odieresis ograve cdotaccent c edieresis eacute ccedilla edotaccent ecaron egrave e d oe o dcaron q ocircumflex oacute ];
+
+@KERN_RIGHT_i = [ icircumflex i idieresis iacute igrave ];
+
+@KERN_LEFT_v = [ wgrave wcircumflex w wacute v wdieresis ];
+
+@KERN_LEFT_Y = [ Ycircumflex Y Ydieresis Yacute Ygrave ];
+
+@KERN_RIGHT_V = [ Wgrave Wcircumflex W Wacute V Wdieresis ];
+
+@KERN_RIGHT_y = [ ycircumflex y ydieresis yacute ygrave ];
+
+@KERN_RIGHT_m = [ udieresis nacute uacute rcaron uring ugrave rcaron.ss01 racute.ss01 u racute m n ntilde r ucircumflex r.ss01 ncaron ];
+
+@KERN_RIGHT_g = [ wgrave wcircumflex w g wacute v wdieresis ];
+
+@KERN_RIGHT_a = [ a aring ae aacute agrave atilde acircumflex adieresis ];
+
+@KERN_RIGHT_U = [ Udieresis Ugrave Ucircumflex Uacute U Uring ];
+
+@KERN_RIGHT_seven.dnom = [ two.dnom seven.dnom three.dnom ];
+
+@KERN_LEFT_V = [ Wgrave Wcircumflex W Wacute V Wdieresis ];
+
+@KERN_RIGHT_C = [ C Odieresis G Ograve OE Cacute Otilde Ccaron Q O Ccircumflex Ccedilla Ocircumflex Oacute ];
+
+@KERN_RIGHT__empty_lu.3_st.0_cl.0 = [  ];
+
+@KERN_RIGHT_T = [ T Tcaron ];
+
+@KERN_LEFT_eight.numr = [ six.numr three.numr two.numr four.numr nine.numr five.numr one.numr eight.numr ];
+
+@KERN_LEFT_b = [ ecaron egrave b ecircumflex ograve oe o edieresis eacute e edotaccent oacute ];
+
+@KERN_RIGHT_B = [ Racute Egrave B E D F I H K L N P Ntilde R Idieresis Edieresis Ecircumflex Iacute Rcaron Igrave Icircumflex Eacute ];
+
+@KERN_LEFT_T = [ T Tcaron ];
+
+@KERN_RIGHT_eight.dnom = [ eight.dnom zero.dnom six.dnom five.dnom nine.dnom ];
+
+@KERN_RIGHT_Y = [ Ycircumflex Y Ydieresis Yacute Ygrave ];
+
+@KERN_LEFT_R = [ Racute R Rcaron ];
+
+@KERN_LEFT_D = [ D Odieresis Ograve Ocircumflex Otilde O Q Oacute ];
+
+@KERN_LEFT_m = [ ncaron ntilde m nacute n ];
+
+@KERN_RIGHT_A = [ A Aring AE Aacute Agrave Atilde Acircumflex Adieresis ];
+
+@KERN_LEFT_ocircumflex = [ p thorn ocircumflex odieresis otilde ];
+
+@KERN_RIGHT_hyphen = [ hyphen period underscore hyphen.case ];
+
+@KERN_LEFT_y = [ ycircumflex y ydieresis yacute ygrave ];
+
+# Prefix: Prefix
+(null)
+
