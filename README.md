@@ -1,3 +1,5 @@
+![Sample](documentation/drawbot/basic-specimen.png)
+
 # Blue Ocean
 🚧 WIP (Work In Progress)🚧
 
