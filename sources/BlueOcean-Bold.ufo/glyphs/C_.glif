@@ -4,31 +4,40 @@
   <unicode hex="0043"/>
   <outline>
     <contour>
-      <point x="565" y="482" type="line"/>
-      <point x="565" y="685" type="line"/>
-      <point x="409" y="685" type="line" smooth="yes"/>
-      <point x="168" y="685"/>
-      <point x="35" y="497"/>
-      <point x="35" y="319" type="curve" smooth="yes"/>
-      <point x="35" y="123"/>
-      <point x="147" y="-12"/>
-      <point x="327" y="-12" type="curve" smooth="yes"/>
-      <point x="480" y="-12"/>
-      <point x="572" y="107"/>
-      <point x="616" y="211" type="curve"/>
-      <point x="601" y="221" type="line"/>
-      <point x="569" y="170"/>
-      <point x="509" y="105"/>
-      <point x="388" y="105" type="curve" smooth="yes"/>
-      <point x="248" y="105"/>
-      <point x="180" y="237"/>
-      <point x="180" y="406" type="curve" smooth="yes"/>
-      <point x="180" y="538"/>
-      <point x="230" y="644"/>
-      <point x="347" y="644" type="curve" smooth="yes"/>
-      <point x="451" y="644"/>
-      <point x="519" y="566"/>
-      <point x="552" y="482" type="curve"/>
+      <point x="327" y="-12" type="qcurve" smooth="yes"/>
+      <point x="448" y="-12"/>
+      <point x="572" y="102"/>
+      <point x="613" y="184"/>
+      <point x="617" y="211"/>
+      <point x="595" y="213"/>
+      <point x="570" y="180"/>
+      <point x="477" y="105"/>
+      <point x="287" y="105"/>
+      <point x="180" y="273"/>
+      <point x="180" y="512"/>
+      <point x="267" y="644"/>
+      <point x="428" y="644"/>
+      <point x="517" y="557"/>
+      <point x="541" y="495"/>
+      <point x="556" y="485"/>
+      <point x="567" y="492"/>
+      <point x="567" y="586"/>
+      <point x="565" y="663"/>
+      <point x="548" y="686"/>
+      <point x="467" y="685"/>
+      <point x="418" y="685" type="qcurve" smooth="yes"/>
+      <point x="239" y="685"/>
+      <point x="35" y="465"/>
+      <point x="35" y="181"/>
+      <point x="188" y="-12"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020-04-17 20:02:37 +0000</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>
