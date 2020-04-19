@@ -6,6 +6,8 @@
 	<array>
 		<string>ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
 		<string>abcdefghijklmnopqrstuvwxyz</string>
+		<string>You/space never/space change/space things/space by/space fighting/space the/space existing/space reality.</string>
+		<string>/quotedblleft If/space you/space want/space to/space teach/space people/space a/space new/space way/space of/space thinking,/space don't/space bother/space trying/space to/space teach/space them./space Instead,/space give/space them/space a/space tool,/space the/space use/space of/space which/space will/space lead/space to/space new/space ways/space of/space thinking./quotedblright</string>
 	</array>
 	<key>com.schriftgestaltung.disablesAutomaticAlignment</key>
 	<true/>
@@ -28,6 +30,8 @@
 	<string>master01</string>
 	<key>com.schriftgestaltung.glyphOrder</key>
 	<false/>
+	<key>com.schriftgestaltung.gridSize</key>
+	<integer>2</integer>
 	<key>com.schriftgestaltung.useNiceNames</key>
 	<false/>
 	<key>com.typemytype.robofont.binarySource</key>
