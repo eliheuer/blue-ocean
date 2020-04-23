@@ -10,6 +10,10 @@
 		<string>/quotedblleft If/space you/space want/space to/space teach/space people/space a/space new/space way/space of/space thinking,/space don't/space bother/space trying/space to/space teach/space them./space Instead,/space give/space them/space a/space tool,/space the/space use/space of/space which/space will/space lead/space to/space new/space ways/space of/space thinking./quotedblright</string>
 		<string>A</string>
 		<string>R</string>
+		<string>á</string>
+		<string>a</string>
+		<string>É</string>
+		<string>Q</string>
 	</array>
 	<key>com.schriftgestaltung.disablesAutomaticAlignment</key>
 	<true/>

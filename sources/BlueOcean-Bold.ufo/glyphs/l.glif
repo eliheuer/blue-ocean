@@ -18,13 +18,13 @@
       <point x="65" y="664"/>
       <point x="37" y="655"/>
       <point x="38" y="641"/>
-      <point x="63" y="614"/>
+      <point x="65" y="616"/>
       <point x="94" y="577"/>
       <point x="94" y="540"/>
       <point x="58" y="526"/>
       <point x="37" y="520"/>
       <point x="37" y="504"/>
-      <point x="63" y="477"/>
+      <point x="65" y="479"/>
       <point x="90" y="445"/>
       <point x="94" y="427"/>
       <point x="98" y="286"/>
@@ -38,7 +38,7 @@
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2020-04-19 00:14:42 +0000</string>
+      <string>2020-04-22 22:22:32 +0000</string>
       <key>public.markColor</key>
       <string>0.85,0.26,0.06,1</string>
     </dict>
