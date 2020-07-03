@@ -44,7 +44,7 @@ glyphs_source="BlueOcean.glyphs"        # Set the source file to build from
 make_new_venv=true                      # Set to `true` if you want to build and activate a python3 venv as part of the script
 #build_static_fonts=true                 # Set to `true` if you want to build static fonts
 #autohint=false                          # Set to `true` if you want to use auto-hinting (ttfautohint)
-#nohinting=true                          # Set to `true` if you want the fonts unhinted
+nohinting=true                          # Set to `true` if you want the fonts unhinted
 
 ################
 # BUILD SCRIPT #
@@ -85,6 +85,25 @@ for sources in $glyphs_source; do
     --output-path $output_dir/variable/Blue-Ocean-VF.ttf \
     --verbose ERROR
 done
+
+echo "[INFO] Fixing variable font DSIG tables"
+if gftools fix-dsig -f fonts/variable/*-VF.ttf >/dev/null; then
+  echo "[INFO] DSIG fixed for variable fonts"
+else
+  echo "[ERROR] GFtools is not working, please update or install: https://github.com/googlefonts/gftools"
+fi
+
+if [ "$nohinting" = true ]; then
+  for font in fonts/variable/*.ttf; do
+    echo "[INFO] Fixing nonhinting for $font ";
+    gftools fix-nonhinting $font fonts/variable/temp.ttf >/dev/null
+    mv fonts/variable/temp.ttf $font
+    rm -rf fonts/variable/*backup-fonttools-prep-gasp.ttf
+  done
+fi
+
+echo "[INFO] Removing build directories";
+rm -rf master_ufo
 
 if [ "$1" = "-gf" ]; then
   echo "[TODO] Google Fonts PR script goes here";

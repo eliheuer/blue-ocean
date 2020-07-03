@@ -44,10 +44,6 @@ value = (
 {
 Name = weight;
 Tag = wght;
-},
-{
-Name = Slant;
-Tag = slnt;
 }
 );
 }
@@ -94,7 +90,7 @@ value = 0;
 },
 {
 name = typoAscender;
-value = 1480;
+value = 1880;
 },
 {
 name = typoDescender;
@@ -168,7 +164,7 @@ value = 0;
 },
 {
 name = typoAscender;
-value = 1480;
+value = 1880;
 },
 {
 name = typoDescender;
@@ -243,7 +239,7 @@ value = 0;
 },
 {
 name = typoAscender;
-value = 1480;
+value = 1880;
 },
 {
 name = typoDescender;
