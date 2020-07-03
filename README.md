@@ -11,7 +11,3 @@ To build new fonts run, `sh BUILD.sh` from the root directory.
 
 ![Sample](documentation/drawbot/basic-specimen.png)
 ![Interp](documentation/interp.png)
-
-## DrawBot Example Images
-Source: [documentation/drawbot/quote-001.py](documentation/drawbot/quote-001.py)
-![Sample](documentation/drawbot/quote-001.gif)
