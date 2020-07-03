@@ -1,0 +1,6 @@
+FONTLOG for Blue Ocean
+===================================
+ChangeLog
+-----------------------------------
+
+07-03-2020 (Eli Heuer) Fixed all Font Bakery issues
