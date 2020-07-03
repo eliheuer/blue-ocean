@@ -29,7 +29,7 @@ def new_page():
 text_01 = '''
 America needs to understand Islam, because this is the one religion that erases from its society the race problem. Throughout my travels in the Muslim world, I have met, talked to, and even eaten with people who in America would have been considered white, but the white attitude was removed from their minds by the religion of Islam. I have never before seen sincere and true brotherhood practiced by all together, irrespective of their color.”
 
-—Malcolm X, Letter from Hajj, 1969
+—Malcolm X, Letter from Hajj
 '''
 
 new_page()
