@@ -1,9 +1,7 @@
 # Blue Ocean
-🚧 Note: This is a work in progress and not yet ready for serious use.
+🚧 Note: This is a work in progress in a Alpha state. It's not ready for use but comments are welcome in the issues.
 
 A variable font fork of Bluu Next by Jean-Baptiste Morizot, redrawn in quadratic curves by Eli Heuer.
-
-To build new fonts run, `sh BUILD.sh` from the root directory.
 
 * https://velvetyne.fr/fonts/bluu/
 * https://github.com/jbmorizot/BluuNext
