@@ -8,4 +8,5 @@ A variable font fork of Bluu Next by Jean-Baptiste Morizot, redrawn in quadratic
 * https://github.com/velvetyne/BluuNext
 
 ![Sample](documentation/drawbot/basic-specimen.png)
+![Screenshot](documentation/screenshots/screenshot-001.png)
 ![Interp](documentation/interp.png)
