@@ -1,11 +1,5 @@
 # Blue Ocean
-🚧 Note: This is a work in progress in a Alpha state. It's not ready for use but comments are welcome in the issues.
-
-A variable font fork of Bluu Next by Jean-Baptiste Morizot, redrawn in quadratic curves by Eli Heuer.
-
-* https://velvetyne.fr/fonts/bluu/
-* https://github.com/jbmorizot/BluuNext
-* https://github.com/velvetyne/BluuNext
+A fork of VTF [Bluu Next](https://velvetyne.fr/fonts/bluu/) by [Jean-Baptiste Morizot](https://github.com/jbmorizot/BluuNext), redrawn in quadratic curves—and as a variable font—by Eli Heuer. This repository conforms to the [Google Font Spec](https://github.com/googlefonts/gf-docs/tree/master/Spec).
 
 ![Sample](documentation/drawbot/basic-specimen.png)
 ![Screenshot](documentation/screenshots/screenshot-001.png)
