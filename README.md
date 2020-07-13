@@ -4,5 +4,3 @@ A fork of VTF [Bluu Next](https://velvetyne.fr/fonts/bluu/) by [Jean-Baptiste Mo
 A proprietary fork of Bluu Next was released by Black Foundry, if you want a version of this typeface with a more traditional outline style and better spacing, please buy a license for the commercial version here: https://black-foundry.com/fonts/bluu-suuperstar
 
 ![Sample](documentation/drawbot/variable-font-specimen-001-alpha.gif)
-![Screenshot](documentation/screenshots/screenshot-001.png)
-![Interp](documentation/interp.png)
