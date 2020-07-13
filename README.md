@@ -11,7 +11,7 @@ Blue Ocean is licensed under the [SIL Open Font License](OFL.txt), please see th
 
 Build scripts and source files are in the [sources](sources) directory.
 
-To build new fonts, open a Unix-like terminal (Linux, MacOS, WSL) in the [sources](sources) directory, and run the build script.
+To build new fonts, open a Unix-like terminal (Linux, MacOS, WSL) in the [sources](sources) directory, and run the build script. If you have [Python3](https://www.python.org/) installed, this script should set up a temporary virtual environment and install all needed dependencies automatically.
 ```
 sh build.sh
 ```
