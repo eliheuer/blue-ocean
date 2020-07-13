@@ -1,5 +1,5 @@
 # Blue Ocean
-A fork of VTF [Bluu Next](https://velvetyne.fr/fonts/bluu/) by [Jean-Baptiste Morizot](https://github.com/jbmorizot/BluuNext), redrawn in quadratic curves—and as a variable font—by Eli Heuer. This repository conforms to the [Google Font Spec](https://github.com/googlefonts/gf-docs/tree/master/Spec), supports the [Google Fonts Latin Core](CHARACTER_SET.txt) character set, and has adopted the [Rust Code of Conduct](https://www.rust-lang.org/policies/code-of-conduct).
+A fork of VTF [Bluu Next](https://velvetyne.fr/fonts/bluu/) by [Jean-Baptiste Morizot](https://github.com/jbmorizot/BluuNext), redrawn in quadratic curves—and as a variable font—by Eli Heuer. This repository conforms to the [Google Fonts Spec](https://github.com/googlefonts/gf-docs/tree/master/Spec), supports the [Google Fonts Latin Core](CHARACTER_SET.txt) character set, and has adopted the [Rust Code of Conduct](https://www.rust-lang.org/policies/code-of-conduct).
 
 A proprietary fork of Bluu Next was released as [Bluu Suuperstar](https://black-foundry.com/fonts/bluu-suuperstar) by [Black Foundry](https://black-foundry.com), if you want a version of this typeface with a more traditional outline style and better spacing, please buy a license for the commercial version here: https://black-foundry.com/fonts/bluu-suuperstar
 
