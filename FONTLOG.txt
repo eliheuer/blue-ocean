@@ -3,10 +3,12 @@ FONTLOG for Blue Ocean
 ChangeLog
 -----------------------------------
 
+13 July 2020 (Eli Heuer) Blue Ocean Alpha
+-- Update build script and source files for first draft PR
 
-8 July 2020 (Eli Heuer) Blue Ocean Alpha
-- Update to conform to the Google Fonts spec
-- spec: https://github.com/googlefonts/gf-docs/tree/master/Spec
+08 July 2020 (Eli Heuer) Blue Ocean Alpha
+-- Update to conform to the Google Fonts spec
+-- spec: https://github.com/googlefonts/gf-docs/tree/master/Spec
 
-7 July 2020 (Eli Heuer) Blue Ocean Alpha
-- Fixed most Font Bakery issues
+07 July 2020 (Eli Heuer) Blue Ocean Alpha
+-- Fixed most Font Bakery issues
