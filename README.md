@@ -1,4 +1,7 @@
+![Sample](documentation/drawbot/variable-font-specimen-001-alpha.gif)
+
 # Blue Ocean
+
 Blue Ocean is a fork of the typeface [VTF Bluu Next](https://velvetyne.fr/fonts/bluu/) by [Jean-Baptiste Morizot](https://github.com/jbmorizot/BluuNext), now with an expanded weight range redrawn in [TrueType](https://en.wikipedia.org/wiki/TrueType#Outlines) quadratic curves by Eli Heuer. The quadratic curve drawing style gives the font a [phototypesetting-like](https://en.wikipedia.org/wiki/Phototypesetting) quality.
 
 This repository conforms to the [Google Fonts Spec](https://github.com/googlefonts/gf-docs/tree/master/Spec), supports the [Google Fonts Latin Core](CHARACTER_SET.txt) character set, and has adopted the [Rust Code of Conduct](https://www.rust-lang.org/policies/code-of-conduct).
@@ -8,8 +11,6 @@ A proprietary fork of Bluu Next was released as [Bluu Suuperstar](https://black-
 Blue Ocean is licensed under the [SIL Open Font License](OFL.txt), please see the [OFL-FAQ.txt](OFL-FAQ.txt) file if you have any legal questions.
 
 [Pull requests](https://github.com/eliheuer/blue-ocean/pulls) and new [issues](https://github.com/eliheuer/blue-ocean/issues) are welcome.
-
-![Sample](documentation/drawbot/variable-font-specimen-001-alpha.gif)
 
 ## Development
 
