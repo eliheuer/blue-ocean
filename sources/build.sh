@@ -22,7 +22,7 @@ set -e
 # modified for other platforms and use cases.
 #
 # This script requires Python3 [3] and a Unix-like
-# environment(Mac, GNU+Linux, WSL), with a BASH-like shell.
+# environment(Mac, Linux, WSL), with a BASH-like shell.
 # All Python dependencies will be installed in a temporary
 # virtual environment by the script. Please see the
 # Google Fonts Spec [1] and the FontBakery QA Tools [2] for more info.
@@ -42,7 +42,7 @@ output_dir="fonts"                      # Where the output from this script goes
 family_name="Blue Ocean"                # Font family name for output files
 glyphs_source="BlueOcean.glyphs"        # Set the source file to build from
 make_new_venv=true                      # Set to `true` if you want to build and activate a python3 virtual environment
-#build_static_fonts=true                # Set to `true` if you want to build static fonts
+build_static_fonts=true                 # Set to `true` if you want to build static fonts
 #autohint=false                         # Set to `true` if you want to use auto-hinting (ttfautohint)
 nohinting=true                          # Set to `true` if you want the fonts unhinted
 
@@ -101,11 +101,64 @@ fi
 echo "[INFO] Removing build directories";
 rm -rf master_ufo
 
-if [ "$1" = "-gf" ]; then
-  echo "[TODO] Google Fonts PR script goes here";
+if [ "$build_static_fonts" = true ]; then
+  echo "[INFO] Building static fonts"
+  fontmake -g BlueOcean.glyphs -i "Blue Ocean Regular" --overlaps-backend pathops --verbose ERROR
+  fontmake -g BlueOcean.glyphs -i "Blue Ocean Medium" --overlaps-backend pathops --verbose ERROR
+  fontmake -g BlueOcean.glyphs -i "Blue Ocean SemiBold" --overlaps-backend pathops --verbose ERROR
+  fontmake -g BlueOcean.glyphs -i "Blue Ocean Bold" --overlaps-backend pathops --verbose ERROR
+  fontmake -g BlueOcean.glyphs -i "Blue Ocean ExtraBold" --overlaps-backend pathops --verbose ERROR
+  fontmake -g BlueOcean.glyphs -i "Blue Ocean Black" --overlaps-backend pathops --verbose ERROR
 fi
+
+if [ "$build_static_fonts" = true ]; then
+  echo "[INFO] Moving static fonts"
+  for font in instance_ttf/BlueOcean-*; do
+    echo "[INFO] Moving $font ..."
+    mv $font ../fonts/ttf/static-ttfs/
+    cp ../fonts/ttf/static-ttfs/*.ttf ~/Google/fonts/ofl/blueocean/static/
+  done
+fi
+
+echo "[INFO] Removing build directories"
+rm -rf instance_ufo instance_otf instance_ttf master_ufo
 
 if [ "$make_new_venv" = true ]; then
   echo "[INFO] Removing Python3 virtual environment"
   rm -rf build-venv
+fi
+
+# GOOGLE FONTS FLAG ONLY SECTION
+# METADATA
+metadata='name: "Blue Ocean"
+designer: "Jean-Baptiste Morizot, Eli Heuer"
+license: "OFL"
+category: "SERIF"
+date_added: "2020-07-13"
+fonts {
+  name: "Blue Ocean"
+  style: "normal"
+  weight: 400
+  filename: "BlueOcean[wght].ttf"
+  post_script_name: "BlueOcean-Regular"
+  full_name: "Blue Ocean Regular"
+  copyright: "Copyright 2020 The Blue Ocean Project Authors (https://github.com/eliheuer/blue-ocean)"
+}
+subsets: "latin"
+subsets: "menu"
+subsets: "vietnamese"
+axes {
+  tag: "wght"
+  min_value: 400.0
+  max_value: 900.0
+}'
+
+if [ "$1" = "-gf" ]; then
+  echo ""
+  echo "[INFO] Preparing a pull request to Google Fonts at ~/Google/fonts/ofl";
+  cp ../DESCRIPTION.en_us.html ~/Google/fonts/ofl/blueocean/
+  cp ../FONTLOG.txt ~/Google/fonts/ofl/blueocean/
+  echo "$metadata" > ~/Google/fonts/ofl/blueocean/METADATA.pb
+  cp ../OFL.txt ~/Google/fonts/ofl/blueocean/
+  cp ../fonts/ttf/BlueOcean.ttf ~/Google/fonts/ofl/blueocean/BlueOcean\[wght\].ttf
 fi
