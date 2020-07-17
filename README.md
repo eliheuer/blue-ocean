@@ -12,6 +12,12 @@ Blue Ocean is licensed under the [SIL Open Font License](OFL.txt), please see th
 
 [Pull requests](https://github.com/eliheuer/blue-ocean/pulls) and new [issues](https://github.com/eliheuer/blue-ocean/issues) are welcome.
 
+## Specimens
+All specimens and demo images shown here are generated with [DrawBot](https://www.drawbot.com) scripts that are included in this repositorys here: [documentation/drawbout](https://github.com/eliheuer/blue-ocean/tree/main/documentation/drawbot)
+
+This image compares different forks of Bluu Next by [Jean-Baptiste Morizot](https://github.com/jbmorizot/BluuNext).
+![comparison helper image](documentation/drawbot/comparison-helper.gif)
+
 ## Development
 
 Build scripts and source files are in the [sources](sources) directory.
